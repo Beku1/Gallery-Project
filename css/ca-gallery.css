@@ -63,7 +63,7 @@ body {
     -webkit-tap-highlight-color: #fed136;
 }
 .offcanvas-btn {
-    z-index: 100000;
+    z-index: 10000;
     position: fixed;
     bottom: 8%;
     right: 3%;
@@ -84,10 +84,10 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: rgb(136, 32, 32);
     width: 80vw;
     right: -80vw;
-    z-index: 10;
+    z-index: 10000;
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
